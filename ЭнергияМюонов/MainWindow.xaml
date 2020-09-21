@@ -18,24 +18,24 @@
         <Menu Grid.ColumnSpan="2">
             <MenuItem Header="Файл">
                 <MenuItem Header="Менеджер загрузки" Click="MenuItem_Click_1"/>
-                <MenuItem Header="Открыть " Click="MenuItem_Click"/>
+                <MenuItem Header="Открыть " Click="MenuItem_Click" IsEnabled="False"/>
                 <Separator/>
-                <MenuItem Header="Сохранить"/>
-                <MenuItem Header="Сохранить как"/>
-                <MenuItem Header="Печать"/>
+                <MenuItem Header="Сохранить" Click="MenuItem_Click_3"/>
+                <MenuItem Header="Сохранить как" IsEnabled="False"/>
+                <MenuItem Header="Печать" IsEnabled="False"/>
                 <Separator/>
-                <MenuItem Header="Выход"/>
+                <MenuItem Header="Выход" IsEnabled="False"/>
             </MenuItem>
             <MenuItem Header="Расчитать">
-                <MenuItem Header="Расчитать все"/>
-                <MenuItem Header="Расчитать 1"/>
-                <MenuItem Header="Расчитать 2"/>
+                <MenuItem Header="Расчитать все" Click="MenuItem_Click_2"/>
+                <MenuItem Header="Расчитать 1" IsEnabled="False"/>
+                <MenuItem Header="Расчитать 2" IsEnabled="False"/>
                 <Separator/>
-                <MenuItem Header="Очистить"/>
+                <MenuItem Header="Очистить" IsEnabled="False"/>
             </MenuItem>
             <MenuItem Header="Помощь">
-                <MenuItem Header="Справка"/>
-                <MenuItem Header="опрограмме"/>
+                <MenuItem Header="Справка" IsEnabled="False"/>
+                <MenuItem Header="опрограмме" IsEnabled="False"/>
             </MenuItem>
         </Menu>
         <ListView x:Name="listProgect" Width="100" Grid.Row="1" SelectionChanged="listProgect_SelectionChanged"/>

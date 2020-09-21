@@ -1,0 +1,65 @@
+﻿<Page x:Class="ЭнергияМюонов.rezRachet.PageRas"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ЭнергияМюонов.rezRachet"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PageRas" Loaded="Page_Loaded">
+
+    <Grid>
+        <TabControl>
+            <TabItem Header="EnDepotnD5565">
+                <DataGrid x:Name="phonesGrid" AutoGenerateColumns="False" Grid.Row="2" >
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="lgD"  Binding="{Binding lgD}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="otn"  Binding="{Binding otn}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="otnerror"   Binding="{Binding otnerror}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="X_Em"   Binding="{Binding X_Em}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="X_EmError1"   Binding="{Binding X_EmError1}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="X_EmError2"   Binding="{Binding X_EmError2}"></DataGridTextColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+
+            </TabItem>
+            <TabItem Header="EnDepotnD6575">
+                <DataGrid x:Name="phonesGrid1" AutoGenerateColumns="False" Grid.Row="2" >
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="lgD"  Binding="{Binding lgD}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="otn"  Binding="{Binding otn}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="otnerror"   Binding="{Binding otnerror}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="X_Em"   Binding="{Binding X_Em}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="X_EmError1"   Binding="{Binding X_EmError1}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="X_EmError2"   Binding="{Binding X_EmError2}"></DataGridTextColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            <TabItem Header="EnDepotnD7585">
+                <DataGrid x:Name="phonesGrid2" AutoGenerateColumns="False" Grid.Row="2" >
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="lgD"  Binding="{Binding lgD}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="otn"  Binding="{Binding otn}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="otnerror"   Binding="{Binding otnerror}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="X_Em"   Binding="{Binding X_Em}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="X_EmError1"   Binding="{Binding X_EmError1}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="X_EmError2"   Binding="{Binding X_EmError2}"></DataGridTextColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            <TabItem Header="EngDepthotn">
+                <DataGrid x:Name="phonesGrid3" AutoGenerateColumns="False" Grid.Row="2" >
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="theta"  Binding="{Binding theta}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="otn"  Binding="{Binding otn}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="otnerror"   Binding="{Binding otnerror}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="X_Em"   Binding="{Binding X_Em}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="X_EmError1"   Binding="{Binding X_EmError1}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="X_EmError2"   Binding="{Binding X_EmError2}"></DataGridTextColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            
+        </TabControl>
+    </Grid>
+</Page>
