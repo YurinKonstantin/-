@@ -35,7 +35,7 @@ namespace ЭнергияМюонов
             string ss = ((ListView)sender).SelectedItem.ToString();
             
             if(ss=="Файл")
-            {
+            {//gfhfhfh
                 PageFiles h = new PageFiles();
                 h.ClassFilesView = ClassFilesView;
                 frame.NavigationService.Navigate(h);
